@@ -340,7 +340,7 @@ color: rgb(145, 88, 219);
 i {
   font-size: 30px;
   transition: 0.2s;
-  color: rgba(248, 248, 255, 1);
+  color: rgb(103, 103, 103);
 }
 
 .introright i:hover {
