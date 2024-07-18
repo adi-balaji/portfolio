@@ -162,7 +162,7 @@ font-weight: 200;
     margin-top: 30px;
   }
 
-  .projectcontainer img{
+.projectcontainer img{
     max-width: 50%;
     max-height: 400px;
     
@@ -534,4 +534,3 @@ margin-left: 10%;
 margin-right: 10%;
 gap: 4%;
 }
-
