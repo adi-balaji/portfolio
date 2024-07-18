@@ -162,13 +162,11 @@ font-weight: 200;
     margin-top: 30px;
   }
 
-  .projectcontainer img {
-    max-width: 100%;
+.projectcontainer img{
+    max-width: 50%;
     max-height: 400px;
-    width: auto;
-    height: auto;
-}
-
+    
+  }
 
   @keyframes typewriter {
     from { width: 0; }
@@ -193,11 +191,11 @@ font-weight: 200;
 
 
   .projectpics {
+    width: 100%;
     display: flex;
-    justify-content: space-between; /* Ensure there's space between images */
-    gap: 2%; /* Adjust as needed for spacing */
+    gap: 2%;
+    justify-content: center;
   }
-
 
 
   .projectname {
