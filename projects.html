@@ -69,9 +69,48 @@
     </div>
   
     <p class="projectdescription">
-      To create a more sustainable future, we need to work towards robots that can assist in farms and gardens to reduce the mental and physical workload of farm workers in a time of increasing crop shortages. We tackle the problem of intelligent object retrieval in a farm environment, providing a method that allows a robot to semantically reason about the location of an unseen goal object among a set of previously seen objects in the environment using a Large Language Model (LLM). We leverage object-to-object semantic relationships to best determine the best location to visit in order to most likely find our goal object. We deployed our system on the Boston Dynamics Spot Robot and found a success rate of 79%, with more improvements on the way. Research paper and website coming soon!
+      <strong><em>Under submission to ICRA 2024!</em></strong><br>
+      To create a more sustainable future, we need to work towards robots that can assist in farms and gardens to reduce the mental and physical workload of farm workers in a time of increasing crop shortages. We tackle the problem of intelligent object retrieval in a farm environment, providing a method that allows a robot to semantically reason about the location of an unseen goal object among a set of previously seen objects in the environment using a Large Language Model (LLM). We leverage object-to-object semantic relationships to best determine the best location to visit in order to most likely find our goal object. We deployed our system on the Boston Dynamics Spot Robot and found a success rate of 79%, with more improvements on the way.
     </p>
   </div>
+
+
+  <div class="projectcontainer fade-in-section">
+    <h4 class="projectname">3D Object Localiztion with Signed Distance Fields (SDFs)</h4>
+    <div class="projectpics" id="pp1">
+      <video controls width="80%" autoplay loop muted>
+        <source src="images/sdf_loc.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <p class="projectdescription">
+      This project presents a robust method for localizing objects in 3D space using Signed Distance Fields (SDFs). SDFs represent an object's surface as a volumetric field where each point's value corresponds to its signed distance from the surface, enabling efficient geometric and normal-based reasoning. Given a point cloud of an object and its corresponding SDF, the approach estimates the object's 6DOF pose (rotation and translation) by minimizing both the distances to the SDF surface and the angle between surface normals derived from the SDF gradients and the point cloud. The method is evaluated on objects from the YCB dataset, demonstrating high accuracy on full and partial point cloud views, even for symmetric and complex geometries.
+    </p>
+  </div>
+
+
+
+
+
+
+
+  <div class = "projectcontainer fade-in-section">
+    <h4 class = "projectname">GrapeRob: A Grape Localization Pipeline for Automated Robotic Harvesting</h4>
+  <div class = "projectpics" id = "pp2">
+    <img src = "images/0418.gif" alt = "Demonstration of Grape Harvesting Robot">
+    <img src = "images/masking_eg2.webp" alt = ""> 
+    </div>
+
+    <p class = "projectdescription">
+      <strong><em>Presented at 2024 Michigan AI Symposium!</em></strong><br>
+      A vision pipeline for grape state estimation to support automated robotic harvesting. This pipeline consists of a grape bunch and stem segmentation model built using PyTorch and the WGISD dataset, and a 3D reconstruction algorithm that combines the grape masks and a depth map to reconstruct a grape point cloud for pose estimation. Read more about it on the <a href="https://deeprob.org/w24/reports/graperob/">project website!</a></p>
+
+  </div>
+  
+
+
+
 
   <div class = "projectcontainer fade-in-section">
     <h4 class = "projectname">Open-Vocabulary Object Localization with OWL-ViT and FAST-SAM</h4>
@@ -84,16 +123,6 @@
   
   </div>
 
-  <div class = "projectcontainer fade-in-section">
-    <h4 class = "projectname">GrapeRob: A Grape Localization Pipeline for Automated Robotic Harvesting</h4>
-  <div class = "projectpics" id = "pp2">
-    <img src = "images/0418.gif" alt = "Demonstration of Grape Harvesting Robot">
-    <img src = "images/masking_eg2.webp" alt = ""> 
-    </div>
-
-    <p class = "projectdescription">A vision pipeline for grape state estimation to support automated robotic harvesting. This pipeline consists of a grape bunch and stem segmentation model built using PyTorch and the WGISD dataset, and a 3D reconstruction algorithm that combines the grape masks and a depth map to reconstruct a grape point cloud for pose estimation. Read more about it on the <a href="https://deeprob.org/w24/reports/graperob/">project website!</a></p>
-
-  </div>
 
 
 
